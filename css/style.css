@@ -553,6 +553,7 @@ footer .foot .social li:nth-of-type(4) {
   color: #111;
 }
 .main-brand .slide-case img {
+  width: 92%;
   max-width: 140px;
   border-radius: 50%;
   border: 1px solid #eee;
