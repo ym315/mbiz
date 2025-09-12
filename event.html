@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <meta property="reply-to" content="" />
+    <meta name="author" content="GiftN" />
+    <meta property="copyright" content="" />
+    <meta name="robots" content="index,follow" />
+    <meta name="keywords" content="기업전용 모바일쿠폰, B2B대량발송, 기업이벤트 경품, 정기발송, 등급별 상시할인, 문자발송 서비스, 포인트몰 웹/모바일 API연동 제공, 모바일솔루션" />
+    <meta name="description" content="기업회원으로 등록하시면 상시 5%~10%할인 제공되며, 최대 20%까지 할인되는 이벤트도 활용해 보세요">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="기프트레터 비즈몰 (기프트엔, GiftN)입니다">
+    <meta property="og:description" content="기업회원으로 등록하시면 상시 5%~10%할인 제공되며, 최대 20%까지 할인되는 이벤트도 활용해 보세요">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="http://www.gift-n.co.kr">
+
+    <title>GIFT LETTER</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" href="./img/pavicon.ico">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/common.js"></script>
+
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css" />    
+
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/slick.js"></script>    
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    
+
+
+
+</head>
+<body>
+    
+<header>
+
+</header>
+
+<main>
+    <section class="s-title main-sec">
+        <h2>이벤트/기획전</h2>
+        <p>기프트엔에서 제공하는 다양한 이벤트 혜택</p>
+    </section> 
+    <section class="event-banner">
+        <div class="event-case" onclick="location.href='event-view.html'">
+            <img src="./img/mobile_banner.png" alt="event banner">
+            <div>
+                <p class="title">무더운 여름 맞이 이벤트</p>
+                <p class="date">2025/07/01 - 2025/07/31</p>
+            </div>               
+        </div>
+        <div class="event-case">
+                <img src="./img/mobile_banner02.png" alt="item">
+                <div>
+                    <p class="title">명절 맞이 할인 이벤트</p>
+                    <p class="date">2025/10/01 - 2025/10/14</p>
+                </div>               
+        </div>            
+    </section>
+</main>
+
+
+<footer>
+
+</footer>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+
+    $(document).on('ready', function() {
+        $(".event-banner").slick({
+            accessibility: true,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            speed: 1000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrow:false,
+            centerMode:true,
+            responsive: [
+                {
+                breakpoint: 500,
+                settings: {
+                    centerMode:false,
+                    }
+                }               
+            ]
+        });
+    });
+
+
+</script>
+
+
+
+</body>
+
+
+</html>
+
