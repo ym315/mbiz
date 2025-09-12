@@ -507,6 +507,18 @@ footer .foot .social li:nth-of-type(4) {
   padding: 0;
   max-width: 1280px;
 }
+.main-sale .slick-dots {
+  bottom: -10px;
+}
+.main-sale .slick-dots li {
+  background: #eee;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+.main-sale .slick-dots li.slick-active {
+  background: #00b2a9;
+}
 
 .main-best {
   display: flex;

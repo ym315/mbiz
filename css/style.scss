@@ -388,6 +388,17 @@ footer{
       @include layout(100%,0 auto,0);
       max-width: 1280px;
   }
+    .slick-dots{    
+    bottom:-10px;
+    li{
+      background: $c-ee;
+      border-radius: 50%;
+      width:8px; height:8px;
+      &.slick-active{
+        background: $mint;
+      }      
+    }
+  }
 }
 
 .main-best{
