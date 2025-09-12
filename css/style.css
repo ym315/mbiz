@@ -363,6 +363,7 @@ footer .foot .social li:nth-of-type(4) {
   color: #111;
   height: 45px;
   overflow: hidden;
+  letter-spacing: -0.05rem;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -379,7 +380,7 @@ footer .foot .social li:nth-of-type(4) {
 .m-price .m-sprice {
   font-weight: bold;
   color: #111;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .m-price .m-sale {
   color: #BE1D2C;
