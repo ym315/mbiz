@@ -235,6 +235,7 @@ footer .foot .customer-menu {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   padding: 9px 0;
+  margin: 10px 0;
 }
 footer .foot .customer-menu li::after {
   content: "";
@@ -264,6 +265,7 @@ footer .foot .social {
 }
 footer .foot .social li {
   background-image: url(../img/icon.png);
+  background-size: 503px 138px;
   background-repeat: no-repeat;
   display: block;
   margin: 0;
@@ -290,7 +292,7 @@ footer .foot .social li:nth-of-type(4) {
   background: url("../img/icon.png"), linear-gradient(to right, #F7D275 0%, #ED5939 35%, #C22763 70%, #6C2Eb8 100%);
   background-position: -152px -43px, center;
   background-repeat: no-repeat, no-repeat;
-  background-size: auto, cover;
+  background-size: 503px 138px, cover;
 }
 
 .m-title {
@@ -354,6 +356,7 @@ footer .foot .social li:nth-of-type(4) {
 .m-brand {
   color: #00b2a9;
   font-weight: bold;
+  font-size: 13px;
 }
 
 .m-name {
@@ -423,6 +426,7 @@ footer .foot .social li:nth-of-type(4) {
 }
 .main-menu ul li i {
   background-image: url(../img/icon.png);
+  background-size: 503px 138px;
   background-repeat: no-repeat;
   display: block;
   margin: 0 auto;
@@ -722,6 +726,7 @@ footer .foot .social li:nth-of-type(4) {
 }
 .grade > ul li i {
   background-image: url(../img/icon.png);
+  background-size: 503px 138px;
   background-repeat: no-repeat;
   width: 44px;
   height: 44px;
