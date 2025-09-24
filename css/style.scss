@@ -332,7 +332,7 @@ footer{
     @include display(flex,flex-start,center); 
     width:100%;   
     li{
-      @include layout(19%,1% auto,0);
+      @include layout(19%,1% 0,0);
       margin-right: 1%;      
       text-align: center;
       a{color: $c-11;}
