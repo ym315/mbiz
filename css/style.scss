@@ -303,12 +303,12 @@ footer{
 .m-brand{color:$mint; font-weight: bold; font-size: 13px;}
 .m-name{
   color:$c-11;
-  height: 45px;            
+  height: 25px;
   overflow: hidden;
   letter-spacing: -.05rem;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
 }
 .m-price{
   margin-top: 10px;
@@ -439,15 +439,27 @@ footer{
 .main-brand{
   .slide-case{
     text-align: center;    
-    margin-right:10px;
+    margin-right:10px;    
+    margin: 3px 0;
     a{color:$c-11;}
-    img {
-      width:92%;
-      max-width: 140px;
+    .slide-img-case{
+      width: 95%;
+      // max-width: 140px;
+      width: 125px;
+      height: 125px;
       border-radius: 50%;
       border: 1px solid $c-ee;
+      margin: 0 auto;
       margin-bottom: 5px;
       padding: 5px;
+      overflow: hidden;
+      @include display(flex,center,center);
+    }
+    img {
+      width: 85%;
+      
+      
+      
     }
   }
   .slick-prev, .slick-next{

@@ -361,12 +361,12 @@ footer .foot .social li:nth-of-type(4) {
 
 .m-name {
   color: #111;
-  height: 45px;
+  height: 25px;
   overflow: hidden;
   letter-spacing: -0.05rem;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
 }
 
 .m-price {
@@ -565,17 +565,30 @@ footer .foot .social li:nth-of-type(4) {
 .main-brand .slide-case {
   text-align: center;
   margin-right: 10px;
+  margin: 3px 0;
 }
 .main-brand .slide-case a {
   color: #111;
 }
-.main-brand .slide-case img {
-  width: 92%;
-  max-width: 140px;
+.main-brand .slide-case .slide-img-case {
+  width: 95%;
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
   border: 1px solid #eee;
+  margin: 0 auto;
   margin-bottom: 5px;
   padding: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -o-flex;
+  -webkit-flex-wrap: wrap;
+}
+.main-brand .slide-case img {
+  width: 85%;
 }
 .main-brand .slick-prev, .main-brand .slick-next {
   top: -45px;
