@@ -87,7 +87,12 @@ a{
 }
 
 //공용 
-header{    
+header{
+  @include layout(100%,0 auto,0);
+  position: fixed;
+  top:0; left:0;
+  background: $c-white;
+  z-index: 99;
   .head{
   @include display(flex,space-between,center);
   @include layout(100%,0 auto,10px);
@@ -109,7 +114,7 @@ header{
     height: 20px;
     cursor: pointer;
     transition: all .5s ease-in-out;
-    z-index: 99;
+    z-index: 999;
         .menu-btn-burger {
         width: 100%;
         height: 2px;
@@ -160,7 +165,7 @@ header{
         position: absolute;
         top: 0;
         right: 0;            
-        z-index: 9;
+        z-index: 99;
         transform: translateX(100%);
         transition: transform 0.8s ease;
         box-shadow: none;
@@ -277,6 +282,7 @@ footer{
 }
 
 //메인 페이지
+main{margin-top:60px;}
 .main-sec{
   @include layout(100%,3vh auto,10px);
 }
@@ -388,6 +394,7 @@ footer{
 }
 
 .main-sale{
+  z-index: 1;
   .main-sale-item{
     // @include display(flex,flex-start,flex-start);
     // flex-wrap: wrap;
@@ -420,6 +427,7 @@ footer{
 
 .main-event{
   position: relative;
+  z-index: 1;
   .event-img {border-radius: 10px; cursor: pointer;}
     .slick-dots{    
     bottom:-10px;
@@ -740,3 +748,73 @@ footer{
       }
   }
 }
+
+
+
+
+.m_mypage_01 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1vh 0;
+  background: $red;
+  color: $c-white;
+  text-align: center;
+}
+
+.m_mypage_02 {
+  margin-top: 5vh;
+
+  article.tap{
+    ul{
+        width: 100%;
+        margin: 0 auto;
+        padding: 1vh 0;
+        text-align: center;
+        li{
+          width: 40%;
+          margin: 0 auto;
+          padding: 0;
+          display: inline-block;
+          background: $c-ee;
+          padding: 2vh 0;
+          &.on{
+            background: $c-66;
+            a{color:$c-white; font-weight: bold}
+          }
+        }
+    }
+  }
+  article.charge{
+    @include layout(90%,0 auto,1vh 0);
+    h3{
+      text-align: center;
+      color: $red;
+      padding: 1vh 0;
+    }
+    ul{
+      li{
+          border: 1px solid $c-ee;
+          margin-bottom: 2vh;
+          div{
+            text-align: center;
+            h3{background: $c-66; color:$c-white}
+            div{
+              @include layout(90%,0 auto,2vh 0);
+              p.m_pay{
+              background: #eee;
+              padding: 0.5vh;
+              margin: 1vh 0;
+              }
+              p.m_price{
+                color: #BE1D2C;
+                font-weight: bold;
+              }
+            }
+          }
+      }
+    }
+  }
+}
+
+
+
