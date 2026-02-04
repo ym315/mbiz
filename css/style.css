@@ -87,6 +87,10 @@ header {
   left: 0;
   background: #fff;
   z-index: 99;
+  min-width: 320px;
+  max-width: 640px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 header .head {
   display: flex;
@@ -274,7 +278,7 @@ footer .foot .social {
   -webkit-flex-wrap: wrap;
 }
 footer .foot .social li {
-  background-image: url(../img/icon.png);
+  background-image: url(../images/Mob/icon.png);
   background-size: 503px 138px;
   background-repeat: no-repeat;
   display: block;
@@ -299,7 +303,7 @@ footer .foot .social li:nth-of-type(3) {
   background-position: -119px -43px;
 }
 footer .foot .social li:nth-of-type(4) {
-  background: url("../img/icon.png"), linear-gradient(to right, #F7D275 0%, #ED5939 35%, #C22763 70%, #6C2Eb8 100%);
+  background: url("../images/Mob/icon.png"), linear-gradient(to right, #F7D275 0%, #ED5939 35%, #C22763 70%, #6C2Eb8 100%);
   background-position: -152px -43px, center;
   background-repeat: no-repeat, no-repeat;
   background-size: 503px 138px, cover;
@@ -440,7 +444,7 @@ main {
   color: #111;
 }
 .main-menu ul li i {
-  background-image: url(../img/icon.png);
+  background-image: url(../images/Mob/icon.png);
   background-size: 503px 138px;
   background-repeat: no-repeat;
   display: block;
@@ -527,7 +531,8 @@ main {
   width: 100%;
   margin: 0 auto;
   padding: 0;
-  max-width: 1280px;
+  min-width: 320px;
+  max-width: 640px;
 }
 .main-sale .slick-dots {
   bottom: -10px;
@@ -757,7 +762,7 @@ main {
   -webkit-flex-wrap: wrap;
 }
 .grade > ul li i {
-  background-image: url(../img/icon.png);
+  background-image: url(../images/Mob/icon.png);
   background-size: 503px 138px;
   background-repeat: no-repeat;
   width: 44px;

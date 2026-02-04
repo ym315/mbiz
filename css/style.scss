@@ -93,6 +93,10 @@ header{
   top:0; left:0;
   background: $c-white;
   z-index: 99;
+  min-width: 320px;
+  max-width: 640px;
+  left:50%;
+  transform: translateX(-50%);
   .head{
   @include display(flex,space-between,center);
   @include layout(100%,0 auto,10px);
@@ -232,7 +236,7 @@ footer{
     .social{
       @include display(flex,flex-start,center);
       li{
-      background-image: url(../img/icon.png);
+      background-image: url(../images/Mob/icon.png);
       background-size: 503px 138px;
       background-repeat: no-repeat;
       display: block;
@@ -248,7 +252,7 @@ footer{
       &:nth-of-type(3){background-color: #2E4E86; background-position: -119px -43px;}
       &:nth-of-type(4){  
         background: 
-            url('../img/icon.png'),
+            url('../images/Mob/icon.png'),
             linear-gradient(to right, #F7D275 0%, #ED5939 35%, #C22763 70%, #6C2Eb8 100%);
             background-position: -152px -43px, center;
             background-repeat: no-repeat, no-repeat;
@@ -343,7 +347,7 @@ main{margin-top:60px;}
       text-align: center;
       a{color: $c-11;}
       i{
-      background-image: url(../img/icon.png);
+      background-image: url(../images/Mob/icon.png);
       background-size: 503px 138px;
       background-repeat: no-repeat;
       display: block;
@@ -399,7 +403,8 @@ main{margin-top:60px;}
     // @include display(flex,flex-start,flex-start);
     // flex-wrap: wrap;
       @include layout(100%,0 auto,0);
-      max-width: 1280px;
+      min-width: 320px;
+      max-width: 640px;      
   }
     .slick-dots{    
     bottom:-10px;
@@ -587,7 +592,7 @@ main{margin-top:60px;}
       padding: 20px 10px;
       @include display(flex,flex-start,flex-start);
       i{
-      background-image: url(../img/icon.png);  
+      background-image: url(../images/Mob/icon.png);  
       background-size: 503px 138px;          
       background-repeat: no-repeat;
       width: 44px;
